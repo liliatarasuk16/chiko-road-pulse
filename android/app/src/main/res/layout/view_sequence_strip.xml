@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:parentTag="android.widget.FrameLayout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp">
+
+        <TextView
+            android:id="@+id/sequence_next_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:text="@string/game_next"
+            android:textAppearance="@style/TextAppearance.App.Label"
+            android:textColor="@color/text_primary" />
+
+        <LinearLayout
+            android:id="@+id/sequence_cells"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical|start"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/sequence_cell_0"
+                android:layout_width="@dimen/sequence_cell_size"
+                android:layout_height="@dimen/sequence_cell_size"
+                android:layout_marginEnd="@dimen/sequence_cell_gap"
+                android:background="@drawable/sequence_cell_active"
+                android:importantForAccessibility="no" />
+
+            <View
+                android:id="@+id/sequence_cell_1"
+                android:layout_width="@dimen/sequence_cell_size"
+                android:layout_height="@dimen/sequence_cell_size"
+                android:layout_marginEnd="@dimen/sequence_cell_gap"
+                android:background="@drawable/sequence_cell"
+                android:importantForAccessibility="no" />
+
+            <View
+                android:id="@+id/sequence_cell_2"
+                android:layout_width="@dimen/sequence_cell_size"
+                android:layout_height="@dimen/sequence_cell_size"
+                android:layout_marginEnd="@dimen/sequence_cell_gap"
+                android:background="@drawable/sequence_cell"
+                android:importantForAccessibility="no" />
+
+            <View
+                android:id="@+id/sequence_cell_3"
+                android:layout_width="@dimen/sequence_cell_size"
+                android:layout_height="@dimen/sequence_cell_size"
+                android:layout_marginEnd="@dimen/sequence_cell_gap"
+                android:background="@drawable/sequence_cell"
+                android:importantForAccessibility="no" />
+
+            <View
+                android:id="@+id/sequence_cell_4"
+                android:layout_width="@dimen/sequence_cell_size"
+                android:layout_height="@dimen/sequence_cell_size"
+                android:layout_marginEnd="@dimen/sequence_cell_gap"
+                android:background="@drawable/sequence_cell"
+                android:importantForAccessibility="no" />
+
+            <View
+                android:id="@+id/sequence_cell_5"
+                android:layout_width="@dimen/sequence_cell_size"
+                android:layout_height="@dimen/sequence_cell_size"
+                android:layout_marginEnd="@dimen/sequence_cell_gap"
+                android:background="@drawable/sequence_cell"
+                android:importantForAccessibility="no" />
+
+            <View
+                android:id="@+id/sequence_cell_6"
+                android:layout_width="@dimen/sequence_cell_size"
+                android:layout_height="@dimen/sequence_cell_size"
+                android:background="@drawable/sequence_cell"
+                android:importantForAccessibility="no" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</merge>

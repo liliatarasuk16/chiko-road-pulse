@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Chiko Road Pulse</string>
+
+    <string name="splash_title_top">CHIKO ROAD</string>
+    <string name="splash_title_bottom">PULSE</string>
+    <string name="splash_subtitle">THREE LANES. ONE ORDER.</string>
+    <string name="splash_loading">LOADING</string>
+    <string name="splash_badge_desc">Chiko parcel cart emblem</string>
+
+    <string name="menu_brand">CHIKO ROAD PULSE</string>
+    <string name="menu_hero_line_one">RUN THE</string>
+    <string name="menu_hero_line_two">PARCEL LINE</string>
+    <string name="menu_hero_sprite_desc">Chiko the courier mascot</string>
+    <string name="menu_hint">SWIPE TO CHANGE LANE</string>
+    <string name="menu_play">PLAY</string>
+    <string name="menu_tutorial">HOW IT WORKS</string>
+    <string name="menu_shift_label">SHIFT</string>
+
+    <string name="stat_best">BEST</string>
+    <string name="stat_accuracy">ACCURACY</string>
+    <string name="stat_chain">CHAIN</string>
+    <string name="stat_points">POINTS</string>
+
+    <string name="shift_day_title">DAY SHIFT</string>
+    <string name="shift_rush_title">RUSH HOUR</string>
+    <string name="shift_night_title">NIGHT RUN</string>
+    <string name="shift_day_short">DAY</string>
+    <string name="shift_rush_short">RUSH</string>
+    <string name="shift_night_short">NIGHT</string>
+
+    <string name="dialog_shift_title">SELECT SHIFT</string>
+    <string name="dialog_shift_confirm">CONFIRM</string>
+    <string name="dialog_shift_close">CLOSE</string>
+    <string name="shift_speed_label">SPEED</string>
+    <string name="shift_chain_label">CHAIN</string>
+    <string name="shift_reward_label">REWARD</string>
+    <string name="shift_state_selected">Selected shift</string>
+    <string name="shift_state_available">Available shift</string>
+    <string name="shift_speed_value">%1$d DP/S</string>
+    <string name="shift_chain_value">%1$d PARCELS</string>
+    <string name="shift_reward_value">%1$s PTS</string>
+
+    <string name="dialog_tutorial_title">HOW IT WORKS</string>
+    <string name="dialog_tutorial_confirm">GOT IT</string>
+    <string name="tutorial_step_one">SWIPE LEFT OR RIGHT TO MOVE THE CART BETWEEN THREE LANES.</string>
+    <string name="tutorial_step_two">THE TOP STRIP SHOWS THE COLOUR ORDER. TAKE PARCELS IN THAT ORDER.</string>
+    <string name="tutorial_step_three">A WRONG COLOUR BREAKS THE STREAK. FIVE MISTAKES END THE RUN.</string>
+    <string name="tutorial_step_four">EMPTY CRATES ARE OBSTACLES. THREE HITS END THE RUN.</string>
+    <string name="tutorial_step_number">[%1$d]</string>
+    <string name="tutorial_sprite_desc">Step illustration</string>
+
+    <string name="dialog_pause_title">PAUSED</string>
+    <string name="dialog_pause_resume">RESUME</string>
+    <string name="dialog_pause_menu">MENU</string>
+    <string name="dialog_pause_note">THE SHIFT CLOCK KEEPS RUNNING</string>
+
+    <string name="game_pause_desc">Pause the run</string>
+    <string name="game_chain_counter">CHAIN %1$d/%2$d</string>
+    <string name="game_miss_counter">MISS %1$d/%2$d</string>
+    <string name="game_timer">%1$02d:%2$02d</string>
+    <string name="game_ready">GO</string>
+    <string name="game_next">NEXT</string>
+    <string name="game_lane_left">LEFT</string>
+    <string name="game_lane_right">RIGHT</string>
+    <string name="game_lane_left_desc">Move cart one lane to the left</string>
+    <string name="game_lane_right_desc">Move cart one lane to the right</string>
+    <string name="game_lives_state">%1$d of %2$d crashes left</string>
+    <string name="game_plus_one">+1</string>
+
+    <string name="result_title_win">RUN COMPLETE</string>
+    <string name="result_title_lose">SHIFT OVER</string>
+    <string name="result_reason_chain">CHAIN DONE</string>
+    <string name="result_reason_time">TIME UP</string>
+    <string name="result_reason_crashes">TOO MANY CRASHES</string>
+    <string name="result_reason_wrong">TOO MANY WRONG PICKS</string>
+    <string name="result_chain_value">%1$d/%2$d</string>
+    <string name="result_accuracy_value">%1$d%%</string>
+    <string name="result_new_best">NEW BEST</string>
+    <string name="result_play_again">PLAY AGAIN</string>
+    <string name="result_menu">MENU</string>
+    <string name="result_points_earned">%1$s PTS EARNED</string>
+</resources>

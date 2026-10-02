@@ -1,0 +1,59 @@
+{
+  "assets": [
+    {
+      "name": "icon_1024",
+      "type": "icon",
+      "prompt": "App icon, one single glossy 3D amber parcel cart, centered, dark graphite radial gradient background, crisp hard edges, bold contrast, no text, no scene, no other objects"
+    },
+    {
+      "name": "bg_splash",
+      "type": "bg",
+      "prompt": "Vertical 9:16 mobile game loader background, dark graphite night with faint diagonal road stripes, very low contrast, moody, cinematic, no text, no UI elements"
+    },
+    {
+      "name": "bg_menu",
+      "type": "bg",
+      "prompt": "Vertical 9:16 mobile game menu background, night farm parcel loading yard with warm amber floodlights, rich saturated 3D render, no text, no UI elements"
+    },
+    {
+      "name": "bg_game",
+      "type": "bg",
+      "prompt": "Vertical 9:16 mobile game background, soft blurred dark conveyor track lanes, low contrast for UI overlay, no text, no UI elements"
+    },
+    {
+      "name": "sprite_cart",
+      "type": "sprite",
+      "prompt": "One single cartoon parcel cart trolley, centered icon, glossy 3D render, isolated on plain white, no other objects"
+    },
+    {
+      "name": "sprite_chiko_hero",
+      "type": "sprite",
+      "prompt": "One single cute cartoon courier mascot chicken wearing a cap, centered icon, glossy 3D render, isolated on plain white, no other objects"
+    },
+    {
+      "name": "sprite_parcel_amber",
+      "type": "sprite",
+      "prompt": "One single amber yellow cardboard parcel box, centered icon, glossy 3D render, isolated on plain white, no other objects"
+    },
+    {
+      "name": "sprite_parcel_coral",
+      "type": "sprite",
+      "prompt": "One single coral red cardboard parcel box, centered icon, glossy 3D render, isolated on plain white, no other objects"
+    },
+    {
+      "name": "sprite_parcel_cyan",
+      "type": "sprite",
+      "prompt": "One single cyan turquoise cardboard parcel box, centered icon, glossy 3D render, isolated on plain white, no other objects"
+    },
+    {
+      "name": "sprite_parcel_lime",
+      "type": "sprite",
+      "prompt": "One single lime green cardboard parcel box, centered icon, glossy 3D render, isolated on plain white, no other objects"
+    },
+    {
+      "name": "sprite_crate_empty",
+      "type": "sprite",
+      "prompt": "One single empty wooden crate without a lid, centered icon, glossy 3D render, isolated on plain white, no other objects"
+    }
+  ]
+}

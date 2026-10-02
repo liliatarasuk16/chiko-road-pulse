@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:parentTag="android.widget.FrameLayout">
+
+    <View
+        android:id="@+id/stat_shadow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/hard_shadow_offset_small"
+        android:layout_marginTop="@dimen/hard_shadow_offset_small"
+        android:background="@drawable/brutal_shadow_dark"
+        android:importantForAccessibility="no" />
+
+    <LinearLayout
+        android:id="@+id/stat_body"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="@dimen/hard_shadow_offset_small"
+        android:layout_marginBottom="@dimen/hard_shadow_offset_small"
+        android:background="@drawable/brutal_block_surface"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingStart="12dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="12dp"
+        android:paddingBottom="10dp">
+
+        <View
+            android:id="@+id/stat_accent"
+            android:layout_width="@dimen/stat_accent_size"
+            android:layout_height="@dimen/stat_accent_size"
+            android:background="@color/accent_amber"
+            android:importantForAccessibility="no" />
+
+        <TextView
+            android:id="@+id/stat_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:maxLines="1"
+            android:textAppearance="@style/TextAppearance.App.Title"
+            android:textColor="@color/accent_amber"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/stat_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:maxLines="1"
+            android:textAppearance="@style/TextAppearance.App.Label" />
+
+    </LinearLayout>
+
+</merge>
